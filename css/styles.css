@@ -1,0 +1,405 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: url('../img/tellomakilas.png');
+    background-position: -13px 0;
+    font-size: 12px;
+  }
+
+	.container {
+    margin: 0 auto;    
+	}
+	
+	section {
+    padding: 10px 0 10px 0;
+    margin: 0 0 25px 0;
+    background: url('../inc/rgba.php/rgba(201, 50, 19, 0.8)');
+    background: rgba(201,50,19,0.8);
+    border-radius: 5px;
+    color: #eee;
+    overflow: visible;
+    box-shadow: 2px 8px 62px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 8px 62px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 8px 62px rgba(0, 0, 0, 0.5);
+    
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	}
+
+	section:hover {
+    background: rgba(201,50,19,1);
+
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	}
+	
+	.fourcol p {
+    padding: 20px;
+    overflow: visible;
+	}
+
+  #datos,
+  #datos_complejo {
+    margin-left: -21px;
+    padding-left: 21px;
+  }
+
+  #datos_complejo {
+    display: none;
+  }
+  
+  .container h2:before, .container h2:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+
+	.container h2 {
+    position: relative;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 6px 20px 6px 25px;
+    margin: 10px 10px 10px -21px;
+    color: #555;
+    background: url('../inc/rgba.php/rgba(255, 255, 255, 0.8)');
+    background-color: rgba(255,255,255,0.8);
+    text-shadow: 0px 1px 2px #bbb;
+    -webkit-box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	}
+	
+	.fourcol:hover h2 {
+    background-color: rgba(255,255,255,1);
+
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	}
+	
+	.container h2:after {
+    left: 0px;
+    top: 100%;
+    border-width: 5px 10px;
+    border-style: solid;
+    border-color:  rgba(0,0,0,0.5)  rgba(0,0,0,0.5) transparent transparent;
+  }
+
+  #chart {
+    height: 480px;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .eightcol {
+    background: url('../img/chart5.png');
+    background-repeat: no-repeat;
+    background-position: center 40px;
+    height: 480px;
+  }
+  
+	.container ul {
+    list-style: none;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin:  10px 0 20px 20px;
+	}
+
+	.container ul strong {
+    color: #ddd;
+	}
+
+	header {
+    margin: 20px auto 25px;
+    background: url('../inc/rgba.php/rgba(255, 255, 255, 0.4)');
+    background: rgba(255,255,255,0.4);
+    padding: 5px;
+
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	}
+
+	header:hover {
+    background: rgba(255,255,255,0.5);
+
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+	}
+
+	header h1 {
+    display: none;
+	}
+	
+	header p {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+	}
+	
+	header span {
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3E3E3E;
+    text-shadow: 1px 1px 0px rgba(255, 225, 255, 0.5);
+    width: 100%;
+    overflow: hidden;
+  }
+
+  span .and {
+    display: inline;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #666
+  }
+
+  .first {
+    margin: 0;
+    font-family: 'Podkova', sans-serif;
+    font-size: 2.8em;
+    letter-spacing: 8px;
+    color: white;
+    line-height: 1em;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .second {
+    margin: -15px 0 0 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 12.9em;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    line-height: 1em;
+  }
+  
+  .third {
+    margin: -5px 0 0 0;
+    font-family: 'Podkova', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0;
+    color: white;
+    line-height: 1em;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .fourth {
+    margin: 0 0 0 -4px;
+    font-family: 'Kameron', serif;
+    font-size: 3.9em;
+    letter-spacing: 1px;
+    line-height: 1em;
+  }
+  
+  div.select-container {
+    margin: 20px 15px 10px 15px;
+  }
+
+  select.chzn-select {
+    width: 100%;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+
+	footer {
+    clear: both;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    position: fixed;
+    bottom: 0;
+    background: url('../inc/rgba.php/rgba(0, 0, 0, 0.8)');
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    color: #fff;
+    font-size: 1em;
+	}
+
+  footer ul {
+    padding: 15px 0;
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+  }
+  
+  footer ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  
+  footer li {
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  
+  .twitter-container,
+  .gplus-container,
+  .facebook-container {
+    height: 25px;
+    position: absolute;
+  }
+
+  .gplus-container {
+    right: 115px;
+  }
+ 
+  .twitter-container {
+    right: 55px;  
+  }
+  
+  .facebook-container {
+    width: 50px;
+    right: 0;
+  }
+
+  footer a:visited,  
+  footer a:link {
+    display: block;
+    color: #92cdff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0);
+    height: 17px;
+  }
+
+  footer a:hover {
+    border-bottom: 1px dotted #92cdff;
+  }
+  
+  a:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  div.pop-up {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  div.pop-up h2 {
+    font-size: 2em;
+    margin: 0 0 10px 0;
+  }
+
+  div.pop-up h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+  }
+
+  div.pop-up p:nth-child(2):first-letter {
+   font-size: 1.7em;
+   padding: 0 5px 0 0;
+  }
+
+  div.pop-up p {
+    line-height: 1.4em;
+    margin: 0 0 20px 0;
+  }
+
+  div.pop-up ul {
+    list-style: square;
+    margin: 0 0 20px 20px;
+    padding: 0 0 0 10px;
+  }
+
+  div.pop-up a {
+    font-weight: bold;
+    text-decoration: none;    
+    border-bottom: 1px solid transparent;
+  }
+
+  div.pop-up a:link {
+    color: #0072bc;
+    border-bottom: 1px solid transparent;
+  }
+
+  div.pop-up a:hover {
+    border-bottom: 1px dotted #0072bc;
+  }
+
+  div.pop-up a:visited {
+    color: #0072bc;
+    border-bottom: 1px dotted #0072bc;
+  }
+/*  
+  div.pop-up a:visited:after {
+    color: inherit;
+    font-weight: normal;
+    content: "\00A0\221A";
+    font-size: 90%;
+  }
+  
+/* ============================= */
+/* ! IE Fixes                    */
+/* ============================= */
+  .ie8 .container h2:before,
+  .ie8 .container h2:after,
+  .ie7 .container h2:before,
+  .ie7 .container h2:after {
+    display: none;
+  }
+
+  .ie8 .facebook-container iframe,
+  .ie7 .facebook-container iframe {
+    margin: -1px 0 0 -1px;  
+    background: none;
+    width: 50px;
+    height: 25px;
+  }
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
